@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-06T05:03:03.530Z",
+        "line": 5,
+        "name": "Verify adactin webpage with passenger details",
+        "description": "",
+        "id": "verifying-hotel-booking;verify-adactin-webpage-with-passenger-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User is on adactin page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User enter username and password",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "MSowmiya",
+                  "sowmiya"
+                ]
+              },
+              {
+                "cells": [
+                  "Priya",
+                  "priya123"
+                ]
+              },
+              {
+                "cells": [
+                  "Joshnika",
+                  "joshni"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User click the login button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying hotel booking",
+    "description": "",
+    "id": "verifying-hotel-booking",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Adactin.feature",
+    "tags": [
+      {
+        "name": "@Func1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-06T05:03:03.572Z",
+        "line": 10,
+        "name": "Payment with debit card",
+        "description": "",
+        "id": "payment-details;payment-with-debit-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User is on debit card page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User enters details",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Payment details",
+    "description": "",
+    "id": "payment-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Payment.feature",
+    "tags": [
+      {
+        "name": "@Func1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
