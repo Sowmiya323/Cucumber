@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import cucumber.api.Scenario;
@@ -66,4 +67,12 @@ public class BaseClass {
 		Alert a = driver.switchTo().alert();
 		a.accept();
 	}
+	public void actions() {
+Actions a=new Actions(driver);
+a.contextClick().perform();
+a.doubleClick().perform();
+a.moveToElement(null).perform();
+	
+	}
+	
 }
